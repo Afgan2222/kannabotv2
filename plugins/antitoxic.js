@@ -14,7 +14,7 @@ handler.before = function (m, { user }) {
       // this.groupRemove(m.chat, [m.sender])
     }
   }
-  return true
+  return false
 }
 
 export default handler
